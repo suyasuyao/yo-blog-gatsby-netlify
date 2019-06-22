@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: なんとかかんとかブログ
-image: /img/home-jumbotron.jpg
+image: /img/fence-climbing.jpg
 heading: ブログでやりたいこと
 subheading: サブヘッダー１
 mainpitch:
