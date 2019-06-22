@@ -11,24 +11,24 @@ const TemplateWrapper = ({ children }) => {
     <div>
       <Helmet>
         <html lang="en" />
-        <title>{title}</title>
+        <title>{title}あいうあsd</title>
         <meta name="description" content={description} />
 
         <link
           rel="apple-touch-icon"
           sizes="180x180"
-          href="/img/apple-touch-icon.png"
+          href="/img/notebook.jpeg"
         />
         <link
           rel="icon"
           type="image/png"
-          href="/img/favicon-32x32.png"
+          href="/img/favicon-32x32.jpeg"
           sizes="32x32"
         />
         <link
           rel="icon"
           type="image/png"
-          href="/img/favicon-16x16.png"
+          href="/img/favicon-16x16.jpeg"
           sizes="16x16"
         />
 

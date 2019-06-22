@@ -36,20 +36,20 @@ class BlogRoll extends React.Component {
                       className="title has-text-primary is-size-4"
                       to={post.fields.slug}
                     >
-                      {post.frontmatter.title}
+                      {post.frontmatter.title} タイトルところ
                     </Link>
                     <span> &bull; </span>
                     <span className="subtitle is-size-5 is-block">
-                      {post.frontmatter.date}
+                      {post.frontmatter.date} 日付
                     </span>
                   </p>
                 </header>
                 <p>
-                  {post.excerpt}
+                  {post.excerpt} 記事内容
                   <br />
                   <br />
                   <Link className="button" to={post.fields.slug}>
-                    Keep Reading →
+                    Keep Reading →  記事ボタン
                   </Link>
                 </p>
               </article>
